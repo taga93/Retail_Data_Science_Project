@@ -6,9 +6,6 @@ import numpy as np
 my_dataFrame = pd.read_csv("OnlineRetailNEW.csv", dtype={'CustomerID': object})
 my_dataFrame["UnitPrice"] = my_dataFrame["UnitPrice"].str.replace(',','.')
 
-#my_dataFrame['InvoiceDate'] = pd.to_datetime(my_dataFrame['InvoiceDate']).dt.time
-#print(my_dataFrame['InvoiceDate'])
-
 
 #number of customers
 def get_number_of_customers():
