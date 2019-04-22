@@ -1,12 +1,12 @@
 # Retail_Data_Science_Project
 
-File for this project is downloaded from here:
+DataFile for this project is downloaded from here, and it has 8 attributes:
 
 https://archive.ics.uci.edu/ml/machine-learning-databases/00352/
 
 Attribute Information:
 
-  -InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation. 
+  -InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter     'c', it indicates a cancellation. 
 
   -StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product. 
 
@@ -21,3 +21,6 @@ Attribute Information:
   -CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer. 
 
   -Country: Country name. Nominal, the name of the country where each customer resides.:
+
+
+I wrote a series of functions using Python and Pandas that I used to extract certain data from this database.
